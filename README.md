@@ -11,6 +11,7 @@ pip install -r requirement.
 On console run the script :
 ```
 python3.5 site_generate.py config.json 
+```
 sample you may find [Here](https://samstudy.github.io/19_site_generator/site/index)
 
 # Project Goals
