@@ -37,17 +37,17 @@
 		</div>
 	</div>
 </nav>
-<div class="jumbotron text-center">
+<div class="navbar navbar-default text-center" >
   <h1>Devman</h1>
 </div>
 <div class="container">
 
 	<div class="row">
 	{% for topic in info['topics'] %}
-		<div class="col-md-4">
+		<div class=" dropdown col-md-4">
 		 
-			<h3>{{ topic['title'] }}</h3>
-			 <ul class="nav nav-list">
+			<button class="btn btn-primary btn-sm dropdown-toggle col-md-7" type="button" data-toggle="dropdown"><h4>{{ topic['title'] }}</h4><span class="caret"></span></button>
+			 <ul class="dropdown-menu">
                 {% for article in info['articles'] %}
                     {% if article['topic']==topic['slug'] %}
                         <li class="list-group-item"><a href="../{{ article['source'] }}">{{ article['title'] }}</a></li>
