@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 19_site_generator
 ____
 > **The script will jenerate a static site which content depend on .md format files locating in articles folder and config which define on json file**
@@ -18,3 +19,12 @@ sample you may find [Here](https://samstudy.github.io/19_site_generator/site/ind
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
 ____
+=======
+# Encyclopedia
+
+[TODO. There will be project description]
+
+# Project Goals
+
+The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+>>>>>>> upstream/master
