@@ -1,8 +1,9 @@
 # 19_site_generator
-____
-> **The script will jenerate a static site which content depend on .md format files locating in articles folder and config which define on json file**
 
-##Requirement
+```
+The script will generate a static site which content depend on .md format files locating in articles folder and config defined on json file
+```
+## Requirement
 Need to install usefull module **jinja2** and **markdown**for do it run command:
 ```
 pip install -r requirement.
