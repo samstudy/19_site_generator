@@ -6,6 +6,7 @@ from os.path import join, split, exists
 from os import makedirs
 from re import sub
 from markdown import markdown
+regexp = "&.+?;" 
 
 DIR_TO_SAVE = 'site'
 DIR_TO = 'site/index.html'
@@ -50,7 +51,7 @@ def generate_articles_html(structure, template='templates/base.html'):
         'text' : text
         }
         path_to_save = join(DIR_TO_SAVE, item['source'])
-        final_path = sub(r'.md\b', '.html', path_to_save)
+        final_path = sub(r'&.+?.md$|.md$', '.html', path_to_save)
         create_dir_for_file(final_path)
         render_page(store_structure, final_path, template) 
 
@@ -60,7 +61,7 @@ def generate_index_html(structure, template='templates/index.html'):
     template = jinja2.Template(html_page)
     for item in structure['articles']:
         path_to_save = join(DIR_TO_SAVE, item['source'])
-        item['source'] = sub(r'.md\b', '.html', path_to_save)
+        item['source'] = sub(r'&.+?.md$|.md$', '.html', path_to_save)
         render_page(structure, DIR_TO, template) 
 
 if __name__ == '__main__':

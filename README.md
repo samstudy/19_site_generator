@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 19_site_generator
 ____
 > **The script will jenerate a static site which content depend on .md format files locating in articles folder and config which define on json file**
