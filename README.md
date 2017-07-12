@@ -12,18 +12,10 @@ On console run the script :
 ```
 python3.5 site_generate.py config.json 
 ```
-sample you may find [Here](https://samstudy.github.io/19_site_generator/site/index)
+sample you may find [https://samstudy.github.io/19_site_generator/site/index](https://samstudy.github.io/19_site_generator/site/index)
 
 # Project Goals
 
 The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
 ____
-=======
-# Encyclopedia
 
-[TODO. There will be project description]
-
-# Project Goals
-
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
->>>>>>> upstream/master
