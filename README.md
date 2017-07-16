@@ -7,7 +7,7 @@ and which config defined on json file
 ## Requirement
 Need to install usefull module such **jinja2** and **markdown** , for do it run command:
 ```
-pip install -r requirements.
+pip install -r requirements.txt
 ```
 ### Usage:
 On console run the script :
